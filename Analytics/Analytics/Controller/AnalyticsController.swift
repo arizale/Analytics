@@ -32,8 +32,6 @@ class AnalyticsController : UIViewController, SideBarProtocol{
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-//        leftBarItem.imageInsets.left = 10
-//        leftBarItem.imageInsets.left = 10
         
         setPieChart()
     }
